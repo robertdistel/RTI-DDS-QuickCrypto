@@ -1,0 +1,6 @@
+struct MyType {
+    long ctr; 				//@key
+    sequence<octet,16> 		nonce;
+    sequence<octet,48> 		wrapped_key; 
+    sequence<octet,1024> 	data;
+};
